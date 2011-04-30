@@ -64,7 +64,7 @@ targeticon:SetScript("OnMouseDown", function(self, button)
 				local server = nil;
 				local name, server = UnitName("target");
 				local fullname = name;
-				if ( server and (not unit or not UnitIsSameServer("player", "target")) ) then
+				if ( server and (not "target" or not UnitIsSameServer("player", "target")) ) then
 					fullname = name.."-"..server;
 				end
 				ChatFrame_SendTell(fullname)
