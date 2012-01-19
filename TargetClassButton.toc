@@ -3,7 +3,7 @@
 ## Title-zhCN: TargetClassButton
 ## Notes: Add a button to Blizzard target portrait which can be clicked for some functionality
 ## Notes-zhCN: 添加到暴雪原始目标头像上的按钮，左键查看目标装备、右键与目标交易、中键密语、鼠标按键4跟随、鼠标按键5比较成就、到可观察装备距离时职业图标由灰白变彩色。
-## Version: 1.2
+## Version: 1.3
 ## Author: networm(狂飙)
 
 
