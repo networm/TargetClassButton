@@ -1,4 +1,4 @@
-﻿-- TargetClassButton by 狂飙@cwdg(networm@qq.com) 20110421
+﻿-- TargetClassButton by 狂飙@cwdg(zzjbcn@yahoo.com.cn) 20120119
 -- 添加到暴雪目标头像上的按钮，左键查看目标装备、右键与目标交易、中键密语、鼠标按键4跟随、鼠标按键5比较成就、到可观察装备距离时职业图标由灰白变彩色。
 
 local targeticon = CreateFrame("Button", "TargetClass", TargetFrame)

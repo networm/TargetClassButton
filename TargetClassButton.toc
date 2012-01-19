@@ -1,4 +1,4 @@
-﻿## Interface: 40100
+﻿## Interface: 40300
 ## Title: TargetClassButton
 ## Title-zhCN: TargetClassButton
 ## Notes: Add a button to Blizzard target portrait which can be clicked for some functionality
