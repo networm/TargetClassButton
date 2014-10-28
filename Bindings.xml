@@ -1,0 +1,24 @@
+<Bindings>
+	<Binding name="INSPECT" header="TARGETCLASSBUTTON">
+		InspectUnit("target")
+	</Binding>
+	<Binding name="TRADE" >
+		InitiateTrade("target")
+	</Binding>
+	<Binding name="WHISPER" >
+		local server = nil;
+		local name, server = UnitName("target");
+		local fullname = name;
+		if ( server and (not "target" or not UnitIsSameServer("player", "target")) ) then
+			fullname = name.."-"..server;
+		end
+		ChatFrame_SendTell(fullname)	
+	</Binding>
+	<Binding name="FOLLOW" >
+		FollowUnit("target")
+	</Binding>
+	<Binding name="COMPARE_ACHIEVEMENTS" >
+		InspectAchievements("target")
+	</Binding>
+</Bindings>
+

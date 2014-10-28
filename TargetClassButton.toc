@@ -8,4 +8,6 @@
 
 
 TargetClassButton.lua
+Bindings.lua
+Bindings.xml
 
