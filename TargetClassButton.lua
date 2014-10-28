@@ -26,7 +26,7 @@ lay:SetPoint("CENTER", 11, -12)
 RaiseFrameLevel(targeticon)
 
 targeticon:SetScript("OnUpdate", function(self)
-	if (not UnitCanAttack("player","target") and UnitIsPlayer("target") and CheckInteractDistance("target",1)) then
+	if (not UnitCanAttack("player","target") and UnitIsPlayer("target")) then
 		targeticon:Enable()
 	--	TargetClassIcon:SetDesaturated(false)
 		SetDesaturation(TargetClassIcon, false)
@@ -49,10 +49,8 @@ end
 targeticon:SetScript("OnMouseDown", function(self, button)
 	if (not UnitCanAttack("player","target") and UnitIsPlayer("target")) then
 		if button == "LeftButton" then
-			if CheckInteractDistance("target",1) then
 				havedown = TargetClassIconDown()
 				InspectUnit("target")
-			end
 		elseif button == "RightButton" then
 			if CheckInteractDistance("target",2) then
 				havedown = TargetClassIconDown()
@@ -73,7 +71,7 @@ targeticon:SetScript("OnMouseDown", function(self, button)
 		elseif button == "Button4" then
 			if CheckInteractDistance("target",4) then
 				havedown = TargetClassIconDown()
-				FollowUnit(fullname, 1);
+				FollowUnit("target");
 			end
 		else
 			if CheckInteractDistance("target",1) then
