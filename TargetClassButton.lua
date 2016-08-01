@@ -98,10 +98,10 @@ end)
 hooksecurefunc("TargetFrame_Update", function()
 	if UnitIsPlayer("target") then
 	--	local _, class = UnitClass("target")
-	--	local coord = CLASS_BUTTONS[class]
+	--	local coord = CLASS_ICON_TCOORDS[class]
 	--	TargetClassIcon:SetTexCoord(coord[1], coord[2], coord[3], coord[4])
 
-		local coord = CLASS_BUTTONS[select(2, UnitClass("target"))]
+		local coord = CLASS_ICON_TCOORDS[select(2, UnitClass("target"))]
 		TargetClassIcon:SetTexCoord(unpack(coord))
 		targeticon:Show()
 	else
