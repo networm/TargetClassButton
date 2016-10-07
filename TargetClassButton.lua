@@ -108,4 +108,3 @@ hooksecurefunc("TargetFrame_Update", function()
 		targeticon:Hide()
 	end
 end)
-
