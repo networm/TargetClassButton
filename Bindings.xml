@@ -1,11 +1,11 @@
 <Bindings>
-	<Binding name="INSPECT" header="TARGETCLASSBUTTON">
+	<Binding name="TARGETCLASSBUTTON_INSPECT" header="TARGETCLASSBUTTON" category="ADDONS">
 		InspectUnit("target")
 	</Binding>
-	<Binding name="TRADE">
+	<Binding name="TARGETCLASSBUTTON_TRADE" category="ADDONS">
 		InitiateTrade("target")
 	</Binding>
-	<Binding name="WHISPER">
+	<Binding name="TARGETCLASSBUTTON_WHISPER" category="ADDONS">
 		local server = nil;
 		local name, server = UnitName("target");
 		local fullname = name;
@@ -14,10 +14,10 @@
 		end
 		ChatFrame_SendTell(fullname)
 	</Binding>
-	<Binding name="FOLLOW">
+	<Binding name="TARGETCLASSBUTTON_FOLLOW" category="ADDONS">
 		FollowUnit("target")
 	</Binding>
-	<Binding name="COMPARE_ACHIEVEMENTS">
+	<Binding name="TARGETCLASSBUTTON_COMPARE_ACHIEVEMENTS" category="ADDONS">
 		InspectAchievements("target")
 	</Binding>
 </Bindings>

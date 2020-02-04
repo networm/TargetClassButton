@@ -1,9 +1,9 @@
-﻿## Interface: 80000
+﻿## Interface: 80300
 ## Title: TargetClassButton
 ## Title-zhCN: TargetClassButton
 ## Notes: Add a button to Blizzard target portrait which can be clicked for some functionality
 ## Notes-zhCN: 目标头像上的职业图标按钮
-## Version: 1.6.1
+## Version: 1.7.1
 ## Author: networm(狂飙)
 
 
